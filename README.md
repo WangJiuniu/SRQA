@@ -58,7 +58,7 @@ The training parameters of the model, such as train_id, debug, etc., can be chan
 The model files are saved in the *model* folder and creates a new folder corresponding to the train_id in *parameters.py* to save the model.
 
 The trained log will be saved in the *logs* folder and will also be output on the command line.
-### 运行flask服务程序
+### Run the flask server
 
 Run *server.py* in a new command window:
 ```
