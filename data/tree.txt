@@ -1,0 +1,9 @@
+.
+├── chars.txt
+├── refined_lbs.pkl
+├── test.ann.json.gz
+├── test.ir.json.gz
+├── training.json.gz
+├── tree.txt
+├── validation.ann.json.gz
+└── validation.ir.json.gz
