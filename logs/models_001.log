@@ -1,0 +1,54 @@
+2019-08-18 09:56:05,674 - mrc - INFO - params.train_idx: 1
+2019-08-18 09:56:05,674 - mrc - INFO - params.debug: True
+2019-08-18 09:56:05,674 - mrc - INFO - params.use_self_attention: True
+2019-08-18 09:56:05,674 - mrc - INFO - params.loss_type: none
+2019-08-18 09:56:05,979 - mrc - INFO - Test data loaded.
+2019-08-18 09:56:05,979 - mrc - INFO - question num:3024
+2019-08-18 09:56:05,985 - mrc - INFO - [test] data sample num [3024]
+2019-08-18 09:56:07,623 - mrc - INFO - Dev data loaded.
+2019-08-18 09:56:07,624 - mrc - INFO - question num:3018
+2019-08-18 09:56:07,630 - mrc - INFO - [valid] data sample num [3018]
+2019-08-18 09:56:11,184 - mrc - INFO - Training data loaded.
+2019-08-18 09:56:11,184 - mrc - INFO - question num:500, total_pos_num:1926, more than one b:602, refined: 602
+2019-08-18 09:56:11,280 - mrc - INFO - [train] data sample num [1790]
+2019-08-18 09:56:14,943 - mrc - INFO - sample number of supervision learning: 1790
+2019-08-18 09:56:15,011 - mrc - INFO - updates[     1] train loss total[9.22093], none[9.22093], adv[0.00000](adv loss is not optimised)
+2019-08-18 09:56:15,011 - mrc - INFO - ===evaluating valid===
+2019-08-18 09:56:16,420 - mrc - INFO - 35 strict correct in 3018 total samples, F1:0.01160
+2019-08-18 09:56:16,421 - mrc - INFO - 41 fuzzy correct in 3018 total samples, F1:0.01359
+2019-08-18 09:56:16,421 - mrc - INFO - ===evaluating test===
+2019-08-18 09:56:17,583 - mrc - INFO - 27 strict correct in 3024 total samples, F1:0.00893
+2019-08-18 09:56:17,583 - mrc - INFO - 41 fuzzy correct in 3024 total samples, F1:0.01356
+2019-08-18 09:56:17,584 - mrc - INFO - current fuzzy_f1: 0.01356 (best fuzzy_f1: 0.00000)	current strict_f1: 0.00893 (best strict_f1: 0.00000)
+2019-08-18 09:56:17,584 - mrc - INFO - best dev f1: 0.01359 (test f1 at that time: 0.01356)
+2019-08-18 09:56:17,585 - mrc - INFO - saved best model to ../model/model_001/best_model.pt in setp 0...
+2019-08-18 09:56:17,605 - mrc - INFO - model saved to ../model/model_001/best_model.pt
+2019-08-18 09:56:17,626 - mrc - INFO - model saved to ../model/model_001/final_model.pt
+2019-08-18 09:56:29,247 - mrc - INFO - params.train_idx: 1
+2019-08-18 09:56:29,247 - mrc - INFO - params.debug: False
+2019-08-18 09:56:29,247 - mrc - INFO - params.use_self_attention: True
+2019-08-18 09:56:29,247 - mrc - INFO - params.loss_type: none
+2019-08-18 09:56:29,554 - mrc - INFO - Test data loaded.
+2019-08-18 09:56:29,554 - mrc - INFO - question num:3024
+2019-08-18 09:56:29,560 - mrc - INFO - [test] data sample num [3024]
+2019-08-18 09:56:31,357 - mrc - INFO - Dev data loaded.
+2019-08-18 09:56:31,357 - mrc - INFO - question num:3018
+2019-08-18 09:56:31,363 - mrc - INFO - [valid] data sample num [3018]
+2019-08-18 09:56:32,901 - mrc - INFO - load /media/iecas/Disk3/Ennhome/mrc/SRQA/code_WebQA/../data/training.json.gz in data rate 1
+2019-08-18 09:58:20,160 - mrc - INFO - Training data loaded.
+2019-08-18 09:58:20,161 - mrc - INFO - question num:36181, total_pos_num:139199, more than one b:42971, refined: 42971
+2019-08-18 09:58:22,034 - mrc - INFO - [train] data sample num [130271]
+2019-08-18 09:59:35,569 - mrc - INFO - sample number of supervision learning: 130271
+2019-08-18 09:59:35,637 - mrc - INFO - updates[     1] train loss total[9.22600], none[9.22600], adv[0.00000](adv loss is not optimised)
+2019-08-18 09:59:35,637 - mrc - INFO - ===evaluating valid===
+2019-08-18 09:59:37,118 - mrc - INFO - 15 strict correct in 3018 total samples, F1:0.00497
+2019-08-18 09:59:37,118 - mrc - INFO - 17 fuzzy correct in 3018 total samples, F1:0.00563
+2019-08-18 09:59:37,118 - mrc - INFO - ===evaluating test===
+2019-08-18 09:59:38,377 - mrc - INFO - 20 strict correct in 3024 total samples, F1:0.00661
+2019-08-18 09:59:38,378 - mrc - INFO - 26 fuzzy correct in 3024 total samples, F1:0.00860
+2019-08-18 09:59:38,380 - mrc - INFO - current fuzzy_f1: 0.00860 (best fuzzy_f1: 0.00000)	current strict_f1: 0.00661 (best strict_f1: 0.00000)
+2019-08-18 09:59:38,380 - mrc - INFO - best dev f1: 0.00563 (test f1 at that time: 0.00860)
+2019-08-18 09:59:38,380 - mrc - INFO - saved best model to ../model/model_001/best_model.pt in setp 0...
+2019-08-18 09:59:38,409 - mrc - INFO - model saved to ../model/model_001/best_model.pt
+2019-08-18 09:59:38,438 - mrc - INFO - model saved to ../model/model_001/final_model.pt
+2019-08-18 10:00:02,222 - mrc - INFO - updates[   501] train loss total[7.84440], none[7.84440], adv[0.00000](adv loss is not optimised)
