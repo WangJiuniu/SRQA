@@ -38,7 +38,7 @@ Note：
 
 **logs**: to save training logs.
 ## Prepare Data
-- WebQA dataset: This is a Factoid Question Answering dataset described in the paper [Dataset and Neural Recurrent Sequence Labeling Model for Open-Domain Factoid Question Answering](https://arxiv.org/abs/1607.06275). And we can download this dataset from [google drive](https://drive.google.com/file/d/1P6Asn8LPECGXCuIjfWci_NYJsdNYP1m7/view?usp=sharing). 下After downloading, extract the relevant data in the compressed package to the data folder of the project according to the directory format in [Files Detail] (#data).
+- WebQA dataset: This is a Factoid Question Answering dataset described in the paper [Dataset and Neural Recurrent Sequence Labeling Model for Open-Domain Factoid Question Answering](https://arxiv.org/abs/1607.06275). And we can download this dataset from [google drive](https://drive.google.com/file/d/1P6Asn8LPECGXCuIjfWci_NYJsdNYP1m7/view?usp=sharing). After downloading, extract the relevant data in the compressed package to the data folder of the project according to the directory format in [Files Detail] (#data).
 - [Other related data:](https://drive.google.com/open?id=17OAzI9Z7sB8SKrawWa0Ldem862cQTEI4)
   - chars.txt, refined_lbs.pkl: Download to the *data* folder of this project.
   - model_WebQA.pt: Download to the *data* folder of this project (this is the pre-trained model loaded by default, which can be ignored if using the local trained model).
