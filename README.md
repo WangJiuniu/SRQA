@@ -82,6 +82,15 @@ If you find this repo useful, please consider citing:
   year={2018},
   organization={Springer}
 }
+@article{wang2020srqa,
+  title={SRQA: Synthetic Reader for Factoid Question Answering},
+  author={Wang, Jiuniu and Xu, Wenjia and Fu, Xingyu and Wei, Yang and Jin, Li and Chen, Ziyan and Xu, Guangluan and Wu, Yirong},
+  journal={Knowledge-Based Systems},
+  volume={193},
+  pages={105415},
+  year={2020},
+  publisher={Elsevier}
+}
 ```
 
 
@@ -167,6 +176,15 @@ python clinet.py
   pages={64--75},
   year={2018},
   organization={Springer}
+}
+@article{wang2020srqa,
+  title={SRQA: Synthetic Reader for Factoid Question Answering},
+  author={Wang, Jiuniu and Xu, Wenjia and Fu, Xingyu and Wei, Yang and Jin, Li and Chen, Ziyan and Xu, Guangluan and Wu, Yirong},
+  journal={Knowledge-Based Systems},
+  volume={193},
+  pages={105415},
+  year={2020},
+  publisher={Elsevier}
 }
 ```
 
